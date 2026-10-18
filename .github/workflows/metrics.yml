@@ -22,23 +22,6 @@ jobs:
     timeout-minutes: 20
     steps:
       # isocalendar runs its own contributions query, so it needs no base data.
-      - name: Contribution calendar
-        uses: lowlighter/metrics@latest
-        timeout-minutes: 8
-        with:
-          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-          user: lopezz-dev
-          filename: metrics-calendar.svg
-          output_action: commit
-          committer_branch: metrics
-          committer_message: "Update ${filename}"
-          config_timezone: Europe/Madrid
-          config_theme: dark
-          plugins_errors_fatal: yes
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-
       - name: Stats card
         uses: lowlighter/metrics@latest
         timeout-minutes: 8
@@ -46,7 +29,8 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: lopezz-dev
           filename: metrics-stats.svg
-          output_action: commit
+          debug: yes
+          output_action: none
           committer_branch: metrics
           committer_message: "Update ${filename}"
           config_timezone: Europe/Madrid
