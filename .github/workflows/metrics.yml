@@ -52,6 +52,7 @@ jobs:
           config_timezone: Europe/Madrid
           config_theme: dark
           plugins_errors_fatal: yes
+          # No plugin_lines: since the account rename, contributor stats return
+          # author: null for commits under the old noreply emails, and metrics
+          # v3.34 crashes on that and hangs until the step times out.
           base: header, repositories
-          plugin_lines: yes
-          plugin_lines_sections: base
