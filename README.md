@@ -6,7 +6,7 @@
 <img src="URL_O_RUTA_DE_TU_FOTO" alt="Alex López" width="160" />
 -->
 
-<a href="https://github.com/Kodemaru">
+<a href="https://github.com/lopezz-dev">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1000&color=F5B841&center=true&vCenter=true&width=650&lines=Programo+y+trasteo+con+IA+%F0%9F%92%BB;Construyendo+huginnDB+en+abierto;Mi+d%C3%ADa+a+d%C3%ADa%2C+c%C3%A1mara+en+mano+%F0%9F%8E%A5;Lo+bueno%2C+lo+malo+y+lo+que+aprendo+%E2%9A%A1" alt="Programo y trasteo con IA. Construyendo huginnDB en abierto. Mi día a día, cámara en mano. Lo bueno, lo malo y lo que aprendo." />
 </a>
 
@@ -35,7 +35,7 @@ alex:
 
 ## 🧩 En lo que estoy
 
-**[huginnDB](https://github.com/Kodemaru/huginnDB)**: un gestor de bases de datos de
+**[huginnDB](https://github.com/lopezz-dev/huginnDB)**: un gestor de bases de datos de
 escritorio para PostgreSQL, MySQL, SQLite, MongoDB y SQL Server, hecho con Tauri + React.
 Pensado para usarse con el teclado, con Monaco en todas partes y con `huginndb-mcp`, un
 conector para que tu IA consulte tus bases de datos. MIT.
@@ -49,7 +49,7 @@ conector para que tu IA consulte tus bases de datos. MIT.
 [![Instagram](https://img.shields.io/badge/Instagram-%40lopezz.dev-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/lopezz.dev)
 [![Web](https://img.shields.io/badge/Web-F5B841?style=for-the-badge&logo=googlechrome&logoColor=0E1014)](https://kodemaru.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alex-l%C3%B3pez-62b2222a0/)
-[![GitHub](https://img.shields.io/badge/GitHub-Alex%20L%C3%B3pez-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kodemaru)
+[![GitHub](https://img.shields.io/badge/GitHub-Alex%20L%C3%B3pez-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lopezz-dev)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Kodemaru&color=F5B841&style=for-the-badge&label=VISITAS)
 
@@ -85,9 +85,9 @@ conector para que tu IA consulte tus bases de datos. MIT.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Kodemaru/Kodemaru/metrics/metrics-stats.svg" alt="Estadísticas de GitHub" width="55%" />
+<img src="https://raw.githubusercontent.com/lopezz-dev/lopezz-dev/metrics/metrics-stats.svg" alt="Estadísticas de GitHub" width="55%" />
 
-<img height="165" src="https://streak-stats.demolab.com/?user=Kodemaru&theme=tokyonight&hide_border=true&ring=F5B841&fire=F5B841&currStreakLabel=F5B841" alt="Racha de contribuciones" />
+<img height="165" src="https://streak-stats.demolab.com/?user=lopezz-dev&theme=tokyonight&hide_border=true&ring=F5B841&fire=F5B841&currStreakLabel=F5B841" alt="Racha de contribuciones" />
 
 </div>
 
@@ -97,7 +97,7 @@ conector para que tu IA consulte tus bases de datos. MIT.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Kodemaru/Kodemaru/metrics/metrics-calendar.svg" alt="Calendario isométrico de contribuciones" width="60%" />
+<img src="https://raw.githubusercontent.com/lopezz-dev/lopezz-dev/metrics/metrics-calendar.svg" alt="Calendario isométrico de contribuciones" width="60%" />
 
 </div>
 
@@ -108,9 +108,9 @@ conector para que tu IA consulte tus bases de datos. MIT.
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kodemaru/Kodemaru/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kodemaru/Kodemaru/output/github-contribution-grid-snake.svg" />
-  <img alt="Animación de la serpiente de contribuciones" src="https://raw.githubusercontent.com/Kodemaru/Kodemaru/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lopezz-dev/lopezz-dev/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lopezz-dev/lopezz-dev/output/github-contribution-grid-snake.svg" />
+  <img alt="Animación de la serpiente de contribuciones" src="https://raw.githubusercontent.com/lopezz-dev/lopezz-dev/output/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
