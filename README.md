@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/samurai.svg" alt="Samurái en arte ASCII con sombrero de paja y dos cuervos, Huginn y Muninn, en los hombros" width="100%" />
+<img src="./assets/samurai.svg" alt="Arte ASCII en dos columnas: un samurái con Huginn y Muninn en los hombros y una katana entre salpicaduras de tinta" width="100%" />
 
 <br>
 
