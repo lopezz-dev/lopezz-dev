@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="刀掛 · ARSENAL"><defs><style>
+text{font-family:'Courier New',Courier,'DejaVu Sans Mono','Liberation Mono',monospace;fill:#9d968b;white-space:pre}
+.t1{fill:#55514b}.t2{fill:#9d968b}.t3{fill:#d9d1c3}.t4{fill:#fbf5ea}
+.kj{font-family:'Yu Mincho','Hiragino Mincho ProN','Noto Serif CJK JP','MS Mincho',serif}.sf{font-family:'Cormorant Garamond',Garamond,'Times New Roman',serif;font-style:italic}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
+@keyframes draw{0%{transform:scaleX(0)}100%{transform:scaleX(1)}}
+.ink{fill:#fbf5ea;opacity:.85;transform-origin:40px 0;animation:draw 1.8s cubic-bezier(.7,0,.2,1) .2s both}
+@keyframes rise{0%{opacity:0;transform:translateY(8px)}100%{opacity:1;transform:translateY(0)}}
+.ti{font-size:40px;fill:#fbf5ea;animation:rise 1.2s ease-out .2s both}
+.la{font-size:13px;fill:#9d968b;letter-spacing:6px;animation:rise 1.2s ease-out .45s both}
+.sn{font-size:20px;fill:#0b0b0b}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.75}}
+.seal{fill:#c8372d;animation:pulse 3s ease-in-out infinite}
+</style><filter id="soft" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="1.4"/></filter></defs><rect width="1200" height="120" fill="#0b0b0b"/>
+<text class="ti kj" x="40" y="60">刀掛</text>
+<text class="la" x="146" y="58">ARSENAL</text>
+<path class="ink" d="M40.0,90.8 L51.9,90.7 L63.8,90.5 L75.7,90.3 L87.6,90.1 L99.4,89.9 L111.3,89.7 L123.2,89.5 L135.1,89.2 L147.0,89.0 L158.9,88.7 L170.8,88.7 L182.7,88.8 L194.6,88.8 L206.4,88.9 L218.3,88.9 L230.2,89.0 L242.1,89.1 L254.0,89.2 L265.9,89.4 L277.8,89.5 L289.7,89.7 L301.6,89.8 L313.4,90.0 L325.3,90.1 L337.2,90.3 L349.1,90.4 L361.0,90.6 L372.9,90.7 L384.8,90.8 L396.7,90.9 L408.6,91.0 L420.4,91.1 L432.3,91.1 L444.2,91.1 L456.1,91.2 L468.0,91.2 L479.9,91.1 L491.8,91.1 L503.7,91.1 L515.6,91.1 L527.4,91.0 L539.3,91.0 L551.2,90.9 L563.1,90.9 L575.0,90.9 L586.9,90.8 L598.8,90.8 L610.7,90.8 L622.6,90.8 L634.4,90.8 L646.3,90.8 L658.2,90.8 L670.1,90.9 L682.0,90.9 L693.9,90.9 L705.8,90.7 L717.7,91.6 L729.6,90.3 L741.4,91.7 L753.3,90.7 L765.2,90.5 L777.1,91.7 L789.0,90.6 L800.9,91.1 L812.8,90.8 L824.7,91.5 L836.6,91.4 L848.4,91.2 L860.3,90.0 L872.2,91.0 L884.1,90.2 L896.0,89.9 L907.9,89.8 L919.8,90.6 L931.7,90.5 L943.6,90.2 L955.4,89.9 L967.3,90.8 L979.2,89.9 L991.1,89.8 L1003.0,89.8 L1014.9,90.9 L1026.8,89.7 L1038.7,90.9 L1050.6,90.7 L1062.4,90.4 L1074.3,90.0 L1086.2,90.9 L1098.1,90.1 L1110.0,90.7 L1110.0,90.9 L1098.1,91.5 L1086.2,90.8 L1074.3,91.6 L1062.4,91.3 L1050.6,91.1 L1038.7,90.8 L1026.8,92.1 L1014.9,91.0 L1003.0,92.2 L991.1,92.3 L979.2,92.3 L967.3,91.5 L955.4,92.6 L943.6,92.3 L931.7,92.2 L919.8,92.3 L907.9,93.2 L896.0,93.2 L884.1,93.1 L872.2,92.4 L860.3,93.5 L848.4,92.6 L836.6,92.5 L824.7,92.5 L812.8,93.4 L800.9,93.2 L789.0,93.9 L777.1,93.0 L765.2,94.3 L753.3,94.3 L741.4,93.5 L729.6,94.9 L717.7,93.8 L705.8,94.9 L693.9,94.7 L682.0,94.9 L670.1,95.0 L658.2,95.1 L646.3,95.2 L634.4,95.3 L622.6,95.4 L610.7,95.5 L598.8,95.5 L586.9,95.5 L575.0,95.5 L563.1,95.5 L551.2,95.5 L539.3,95.4 L527.4,95.4 L515.6,95.3 L503.7,95.2 L491.8,95.2 L479.9,95.1 L468.0,95.0 L456.1,94.9 L444.2,94.9 L432.3,94.8 L420.4,94.7 L408.6,94.7 L396.7,94.7 L384.8,94.6 L372.9,94.6 L361.0,94.6 L349.1,94.6 L337.2,94.6 L325.3,94.6 L313.4,94.6 L301.6,94.6 L289.7,94.6 L277.8,94.6 L265.9,94.6 L254.0,94.6 L242.1,94.5 L230.2,94.5 L218.3,94.4 L206.4,94.3 L194.6,94.2 L182.7,94.1 L170.8,94.0 L158.9,93.9 L147.0,93.5 L135.1,93.1 L123.2,92.8 L111.3,92.4 L99.4,92.1 L87.6,91.8 L75.7,91.6 L63.8,91.3 L51.9,91.1 L40.0,90.8Z"/>
+<rect class="seal" x="1126" y="72" width="38" height="38" rx="3"/>
+<text class="sn kj" x="1145" y="98" text-anchor="middle">三</text>
+</svg>

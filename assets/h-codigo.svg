@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="武士道 · CÓDIGO"><defs><style>
+text{font-family:'Courier New',Courier,'DejaVu Sans Mono','Liberation Mono',monospace;fill:#9d968b;white-space:pre}
+.t1{fill:#55514b}.t2{fill:#9d968b}.t3{fill:#d9d1c3}.t4{fill:#fbf5ea}
+.kj{font-family:'Yu Mincho','Hiragino Mincho ProN','Noto Serif CJK JP','MS Mincho',serif}.sf{font-family:'Cormorant Garamond',Garamond,'Times New Roman',serif;font-style:italic}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
+@keyframes draw{0%{transform:scaleX(0)}100%{transform:scaleX(1)}}
+.ink{fill:#fbf5ea;opacity:.85;transform-origin:40px 0;animation:draw 1.8s cubic-bezier(.7,0,.2,1) .2s both}
+@keyframes rise{0%{opacity:0;transform:translateY(8px)}100%{opacity:1;transform:translateY(0)}}
+.ti{font-size:40px;fill:#fbf5ea;animation:rise 1.2s ease-out .2s both}
+.la{font-size:13px;fill:#9d968b;letter-spacing:6px;animation:rise 1.2s ease-out .45s both}
+.sn{font-size:20px;fill:#0b0b0b}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.75}}
+.seal{fill:#c8372d;animation:pulse 3s ease-in-out infinite}
+</style><filter id="soft" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="1.4"/></filter></defs><rect width="1200" height="120" fill="#0b0b0b"/>
+<text class="ti kj" x="40" y="60">武士道</text>
+<text class="la" x="190" y="58">CÓDIGO</text>
+<path class="ink" d="M40.0,92.8 L51.9,92.6 L63.8,92.4 L75.7,92.1 L87.6,91.9 L99.4,91.7 L111.3,91.4 L123.2,91.2 L135.1,91.0 L147.0,90.8 L158.9,90.6 L170.8,90.7 L182.7,90.8 L194.6,90.9 L206.4,91.0 L218.3,91.0 L230.2,91.1 L242.1,91.1 L254.0,91.1 L265.9,91.2 L277.8,91.2 L289.7,91.1 L301.6,91.1 L313.4,91.0 L325.3,90.9 L337.2,90.8 L349.1,90.7 L361.0,90.6 L372.9,90.5 L384.8,90.3 L396.7,90.2 L408.6,90.1 L420.4,89.9 L432.3,89.8 L444.2,89.7 L456.1,89.6 L468.0,89.5 L479.9,89.4 L491.8,89.3 L503.7,89.3 L515.6,89.2 L527.4,89.2 L539.3,89.2 L551.2,89.2 L563.1,89.2 L575.0,89.2 L586.9,89.2 L598.8,89.3 L610.7,89.3 L622.6,89.3 L634.4,89.3 L646.3,89.4 L658.2,89.4 L670.1,89.4 L682.0,89.4 L693.9,89.4 L705.8,90.0 L717.7,89.1 L729.6,89.0 L741.4,89.2 L753.3,88.8 L765.2,89.5 L777.1,89.0 L789.0,89.1 L800.9,89.2 L812.8,89.4 L824.7,88.9 L836.6,88.8 L848.4,89.5 L860.3,89.3 L872.2,90.2 L884.1,89.4 L896.0,89.6 L907.9,89.3 L919.8,89.7 L931.7,90.5 L943.6,90.6 L955.4,90.3 L967.3,91.4 L979.2,90.9 L991.1,91.5 L1003.0,91.7 L1014.9,92.0 L1026.8,91.1 L1038.7,92.2 L1050.6,92.2 L1062.4,92.1 L1074.3,91.6 L1086.2,92.8 L1098.1,92.4 L1110.0,92.4 L1110.0,92.6 L1098.1,92.4 L1086.2,91.9 L1074.3,93.0 L1062.4,92.3 L1050.6,92.1 L1038.7,91.9 L1026.8,92.8 L1014.9,91.8 L1003.0,91.9 L991.1,91.9 L979.2,92.4 L967.3,91.8 L955.4,92.7 L943.6,92.3 L931.7,92.2 L919.8,92.9 L907.9,93.2 L896.0,92.7 L884.1,92.8 L872.2,91.9 L860.3,92.7 L848.4,92.5 L836.6,93.1 L824.7,92.9 L812.8,92.4 L800.9,92.5 L789.0,92.5 L777.1,92.6 L765.2,92.1 L753.3,92.8 L741.4,92.4 L729.6,92.7 L717.7,92.5 L705.8,91.7 L693.9,92.3 L682.0,92.4 L670.1,92.5 L658.2,92.6 L646.3,92.6 L634.4,92.8 L622.6,92.9 L610.7,93.0 L598.8,93.2 L586.9,93.3 L575.0,93.5 L563.1,93.6 L551.2,93.8 L539.3,93.9 L527.4,94.1 L515.6,94.2 L503.7,94.3 L491.8,94.4 L479.9,94.5 L468.0,94.6 L456.1,94.6 L444.2,94.7 L432.3,94.7 L420.4,94.8 L408.6,94.8 L396.7,94.8 L384.8,94.8 L372.9,94.8 L361.0,94.8 L349.1,94.8 L337.2,94.8 L325.3,94.8 L313.4,94.9 L301.6,94.9 L289.7,94.9 L277.8,95.0 L265.9,95.0 L254.0,95.1 L242.1,95.2 L230.2,95.3 L218.3,95.4 L206.4,95.4 L194.6,95.5 L182.7,95.6 L170.8,95.7 L158.9,95.7 L147.0,95.5 L135.1,95.3 L123.2,95.0 L111.3,94.7 L99.4,94.4 L87.6,94.1 L75.7,93.8 L63.8,93.4 L51.9,93.1 L40.0,92.8Z"/>
+<rect class="seal" x="1126" y="72" width="38" height="38" rx="3"/>
+<text class="sn kj" x="1145" y="98" text-anchor="middle">四</text>
+</svg>
