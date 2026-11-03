@@ -106,7 +106,7 @@ def render(total, weeks) -> str:
             wd = (dt.date.fromisoformat(date).weekday() + 1) % 7   # 0 = domingo
             ch, cls = level(c)
             col.append(f'<text class="{cls}" x="{x:.1f}" y="{y0 + wd * rowh}">{ch}</text>')
-        cells.append(f'<g class="cw" style="animation-delay:{wi * 0.045:.2f}s">{"".join(col)}</g>')
+        cells.append("".join(col))
         m = dt.date.fromisoformat(week[0][0]).month
         if m != last_month and wi < len(weeks) - 2:
             months.append(f'<text class="mo kj" x="{x:.1f}" y="{y0 + 7 * rowh + 14}">{MONTHS[m - 1]}</text>')
@@ -135,11 +135,7 @@ text{{font-family:{FONT};white-space:pre}}
 .z{{fill:{FAINT}}}.a{{fill:{DIM}}}.b{{fill:{MID}}}.c{{fill:{LIGHT}}}.d{{fill:{BONE}}}.e{{fill:{SEAL};font-weight:bold}}
 .mo{{font-size:12px;fill:{DIM}}}.dy{{font-size:13px;fill:{DIM}}}
 .sn{{font-size:32px;fill:{BONE}}}.sl{{font-size:11px;fill:{MID};letter-spacing:4px}}
-@keyframes ink{{0%{{opacity:0}}100%{{opacity:1}}}}
-.cw{{opacity:0;animation:ink .6s ease-out both}}
-@keyframes today{{0%,100%{{opacity:.25;r:7px}}50%{{opacity:.9;r:10px}}}}
-.td{{fill:none;stroke:{SEAL};stroke-width:1.3;animation:today 2.4s ease-in-out infinite}}
-@media (prefers-reduced-motion:reduce){{*{{animation:none!important}}.cw{{opacity:1}}}}
+.td{{fill:none;stroke:{SEAL};stroke-width:1.3;opacity:.8}}
 """
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
             f'aria-label="Registro de contribuciones: {total} en el último año, racha más larga de {longest} días, racha actual de {current}.">'

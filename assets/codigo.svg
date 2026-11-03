@@ -1,79 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img" aria-label="Código: 義 rectitud: Sin atajos.; 勇 coraje: Romper para aprender.; 仁 compasión: Código que otro pueda leer.; 礼 respeto: Por quien vino antes.; 誠 sinceridad: Si falla, se dice.; 名誉 honor: Lo firmo con mi nombre.; 忠義 lealtad: Al oficio, no a la moda."><defs><style>
-text{font-family:'Courier New',Courier,'DejaVu Sans Mono','Liberation Mono',monospace;fill:#9d968b;white-space:pre}
-.t1{fill:#55514b}.t2{fill:#9d968b}.t3{fill:#d9d1c3}.t4{fill:#fbf5ea}
-.kj{font-family:'Yu Mincho','Hiragino Mincho ProN','Noto Serif CJK JP','MS Mincho',serif}.sf{font-family:'Cormorant Garamond',Garamond,'Times New Roman',serif;font-style:italic}
-@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 402" width="1200" height="402" role="img" aria-label="bushido.rs: // 武士道 · el código del oficio
 
-.kc{font-size:58px;fill:#3a3835}
-.ro{font-size:11px;fill:#55514b;letter-spacing:4px}
-.vi{font-size:13px;fill:#9d968b;letter-spacing:4px}
-.ru{font-size:16px;fill:#9d968b}
-.dash{stroke:#55514b}
-@keyframes lit{0%{fill:#3a3835}3%{fill:#c8372d}14.3%{fill:#c8372d}20.3%,100%{fill:#3a3835}}
-.col text{animation:lit 9.1s ease-out infinite;animation-delay:inherit}
-@keyframes sub{0%{opacity:.55}3%{opacity:1}14.3%{opacity:1}20.3%,100%{opacity:.55}}
-.sub{opacity:.55;animation:sub 9.1s ease-out infinite}
-</style><filter id="soft" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="1.4"/></filter></defs><rect width="1200" height="330" fill="#0b0b0b"/>
-<g class="col" style="animation-delay:0.00s">
-<text class="kc kj" x="120.0" y="120" text-anchor="middle">義</text>
-</g>
-<g class="sub" style="animation-delay:0.00s">
-<text class="ro" x="120.0" y="168" text-anchor="middle">GI</text>
-<text class="vi" x="120.0" y="196" text-anchor="middle">RECTITUD</text>
-<line x1="106.0" y1="216" x2="134.0" y2="216" class="dash"/>
-<text class="ru sf" x="120.0" y="246" text-anchor="middle">Sin atajos.</text>
-</g>
-<g class="col" style="animation-delay:1.30s">
-<text class="kc kj" x="280.0" y="120" text-anchor="middle">勇</text>
-</g>
-<g class="sub" style="animation-delay:1.30s">
-<text class="ro" x="280.0" y="168" text-anchor="middle">YŪ</text>
-<text class="vi" x="280.0" y="196" text-anchor="middle">CORAJE</text>
-<line x1="266.0" y1="216" x2="294.0" y2="216" class="dash"/>
-<text class="ru sf" x="280.0" y="246" text-anchor="middle">Romper para</text><text class="ru sf" x="280.0" y="266" text-anchor="middle">aprender.</text>
-</g><line x1="200.0" y1="60" x2="200.0" y2="290" stroke="#55514b" stroke-dasharray="1 6"/>
-<g class="col" style="animation-delay:2.60s">
-<text class="kc kj" x="440.0" y="120" text-anchor="middle">仁</text>
-</g>
-<g class="sub" style="animation-delay:2.60s">
-<text class="ro" x="440.0" y="168" text-anchor="middle">JIN</text>
-<text class="vi" x="440.0" y="196" text-anchor="middle">COMPASIÓN</text>
-<line x1="426.0" y1="216" x2="454.0" y2="216" class="dash"/>
-<text class="ru sf" x="440.0" y="246" text-anchor="middle">Código que otro</text><text class="ru sf" x="440.0" y="266" text-anchor="middle">pueda leer.</text>
-</g><line x1="360.0" y1="60" x2="360.0" y2="290" stroke="#55514b" stroke-dasharray="1 6"/>
-<g class="col" style="animation-delay:3.90s">
-<text class="kc kj" x="600.0" y="120" text-anchor="middle">礼</text>
-</g>
-<g class="sub" style="animation-delay:3.90s">
-<text class="ro" x="600.0" y="168" text-anchor="middle">REI</text>
-<text class="vi" x="600.0" y="196" text-anchor="middle">RESPETO</text>
-<line x1="586.0" y1="216" x2="614.0" y2="216" class="dash"/>
-<text class="ru sf" x="600.0" y="246" text-anchor="middle">Por quien</text><text class="ru sf" x="600.0" y="266" text-anchor="middle">vino antes.</text>
-</g><line x1="520.0" y1="60" x2="520.0" y2="290" stroke="#55514b" stroke-dasharray="1 6"/>
-<g class="col" style="animation-delay:5.20s">
-<text class="kc kj" x="760.0" y="120" text-anchor="middle">誠</text>
-</g>
-<g class="sub" style="animation-delay:5.20s">
-<text class="ro" x="760.0" y="168" text-anchor="middle">MAKOTO</text>
-<text class="vi" x="760.0" y="196" text-anchor="middle">SINCERIDAD</text>
-<line x1="746.0" y1="216" x2="774.0" y2="216" class="dash"/>
-<text class="ru sf" x="760.0" y="246" text-anchor="middle">Si falla,</text><text class="ru sf" x="760.0" y="266" text-anchor="middle">se dice.</text>
-</g><line x1="680.0" y1="60" x2="680.0" y2="290" stroke="#55514b" stroke-dasharray="1 6"/>
-<g class="col" style="animation-delay:6.50s">
-<text class="kc kj" x="920.0" y="120" text-anchor="middle">名誉</text>
-</g>
-<g class="sub" style="animation-delay:6.50s">
-<text class="ro" x="920.0" y="168" text-anchor="middle">MEIYO</text>
-<text class="vi" x="920.0" y="196" text-anchor="middle">HONOR</text>
-<line x1="906.0" y1="216" x2="934.0" y2="216" class="dash"/>
-<text class="ru sf" x="920.0" y="246" text-anchor="middle">Lo firmo con</text><text class="ru sf" x="920.0" y="266" text-anchor="middle">mi nombre.</text>
-</g><line x1="840.0" y1="60" x2="840.0" y2="290" stroke="#55514b" stroke-dasharray="1 6"/>
-<g class="col" style="animation-delay:7.80s">
-<text class="kc kj" x="1080.0" y="120" text-anchor="middle">忠義</text>
-</g>
-<g class="sub" style="animation-delay:7.80s">
-<text class="ro" x="1080.0" y="168" text-anchor="middle">CHŪGI</text>
-<text class="vi" x="1080.0" y="196" text-anchor="middle">LEALTAD</text>
-<line x1="1066.0" y1="216" x2="1094.0" y2="216" class="dash"/>
-<text class="ru sf" x="1080.0" y="246" text-anchor="middle">Al oficio,</text><text class="ru sf" x="1080.0" y="266" text-anchor="middle">no a la moda.</text>
-</g><line x1="1000.0" y1="60" x2="1000.0" y2="290" stroke="#55514b" stroke-dasharray="1 6"/></svg>
+fn main() {
+    let hoja = Hoja::forjar()
+        .sin_atajos()                // 義 rectitud
+        .romper_para_aprender()      // 勇 coraje
+        .que_otro_pueda_leerlo()     // 仁 compasión
+        .si_falla_se_dice()          // 誠 sinceridad
+        .firmada(&quot;lopezz-dev&quot;);      // 名誉 honor
+
+    hoja.envainar(); // silenciosa, espera
+}"><defs><style>
+text{font-family:'Courier New',Courier,'DejaVu Sans Mono','Liberation Mono',monospace;fill:#9d968b;white-space:pre}
+.kj{font-family:'Yu Mincho','Hiragino Mincho ProN','Noto Serif CJK JP','MS Mincho',serif}.sf{font-family:'Cormorant Garamond',Garamond,'Times New Roman',serif;font-style:italic}
+
+.cd{font-size:16px}
+.ln{font-size:13px;fill:#3a3835}
+.tab{font-size:12px;fill:#55514b;letter-spacing:2px}
+.kw{fill:#c8372d}.fn{fill:#fbf5ea}.id{fill:#d9d1c3}.st{fill:#9d968b;font-style:italic}
+.cm{fill:#55514b}.pu{fill:#9d968b}.kj{fill:#c8372d;font-family:'Yu Mincho','Hiragino Mincho ProN','Noto Serif CJK JP','MS Mincho',serif}
+</style></defs><rect width="1200" height="402" fill="#0b0b0b"/><line x1="106" y1="34" x2="106" y2="378" stroke="#55514b" stroke-width="1"/><text class="tab" x="40" y="24">bushido.rs</text><line x1="40" y1="34" x2="1160" y2="34" stroke="#1e1c1a"/><text class="ln" x="94" y="56" text-anchor="end"> 1</text><text class="cd" x="120" y="56" xml:space="preserve"><tspan class="cm">// 武士道 · el código del oficio</tspan></text><text class="ln" x="94" y="82" text-anchor="end"> 2</text><text class="ln" x="94" y="108" text-anchor="end"> 3</text><text class="cd" x="120" y="108" xml:space="preserve"><tspan class="kw">fn </tspan><tspan class="fn">main</tspan><tspan class="pu">() {</tspan></text><text class="ln" x="94" y="134" text-anchor="end"> 4</text><text class="cd" x="120" y="134" xml:space="preserve"><tspan class="kw">    let </tspan><tspan class="id">hoja</tspan><tspan class="pu"> = </tspan><tspan class="fn">Hoja</tspan><tspan class="pu">::</tspan><tspan class="fn">forjar</tspan><tspan class="pu">()</tspan></text><text class="ln" x="94" y="160" text-anchor="end"> 5</text><text class="cd" x="120" y="160" xml:space="preserve"><tspan class="pu">        .</tspan><tspan class="fn">sin_atajos</tspan><tspan class="pu">()</tspan><tspan class="pu">                </tspan><tspan class="cm">// </tspan><tspan class="kj">義</tspan><tspan class="cm"> rectitud</tspan></text><text class="ln" x="94" y="186" text-anchor="end"> 6</text><text class="cd" x="120" y="186" xml:space="preserve"><tspan class="pu">        .</tspan><tspan class="fn">romper_para_aprender</tspan><tspan class="pu">()</tspan><tspan class="pu">      </tspan><tspan class="cm">// </tspan><tspan class="kj">勇</tspan><tspan class="cm"> coraje</tspan></text><text class="ln" x="94" y="212" text-anchor="end"> 7</text><text class="cd" x="120" y="212" xml:space="preserve"><tspan class="pu">        .</tspan><tspan class="fn">que_otro_pueda_leerlo</tspan><tspan class="pu">()</tspan><tspan class="pu">     </tspan><tspan class="cm">// </tspan><tspan class="kj">仁</tspan><tspan class="cm"> compasión</tspan></text><text class="ln" x="94" y="238" text-anchor="end"> 8</text><text class="cd" x="120" y="238" xml:space="preserve"><tspan class="pu">        .</tspan><tspan class="fn">si_falla_se_dice</tspan><tspan class="pu">()</tspan><tspan class="pu">          </tspan><tspan class="cm">// </tspan><tspan class="kj">誠</tspan><tspan class="cm"> sinceridad</tspan></text><text class="ln" x="94" y="264" text-anchor="end"> 9</text><text class="cd" x="120" y="264" xml:space="preserve"><tspan class="pu">        .</tspan><tspan class="fn">firmada</tspan><tspan class="pu">(</tspan><tspan class="st">&quot;lopezz-dev&quot;</tspan><tspan class="pu">);</tspan><tspan class="pu">      </tspan><tspan class="cm">// </tspan><tspan class="kj">名誉</tspan><tspan class="cm"> honor</tspan></text><text class="ln" x="94" y="290" text-anchor="end">10</text><text class="ln" x="94" y="316" text-anchor="end">11</text><text class="cd" x="120" y="316" xml:space="preserve"><tspan class="id">    hoja</tspan><tspan class="pu">.</tspan><tspan class="fn">envainar</tspan><tspan class="pu">(); </tspan><tspan class="cm">// silenciosa, espera</tspan></text><text class="ln" x="94" y="342" text-anchor="end">12</text><text class="cd" x="120" y="342" xml:space="preserve"><tspan class="pu">}</tspan></text></svg>
