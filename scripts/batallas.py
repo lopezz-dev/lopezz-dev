@@ -118,9 +118,9 @@ def render(total, weeks) -> str:
     rows = "".join(f'<text class="dy kj" x="{x0 - 34}" y="{y0 + r * rowh}">{k}</text>' for r, k in DAYS.items())
 
     stats = [
-        (f"{total}", "TAJOS EN EL ÚLTIMO AÑO"),
-        (f"{longest}", "DÍAS · RACHA MÁS LARGA"),
-        (f"{current}", "DÍAS · RACHA ACTUAL"),
+        (f"{total}", "STRIKES IN THE LAST YEAR"),
+        (f"{longest}", "DAYS · LONGEST STREAK"),
+        (f"{current}", "DAYS · CURRENT STREAK"),
     ]
     stat_svg = ""
     for i, (n, lbl) in enumerate(stats):
@@ -138,7 +138,7 @@ text{{font-family:{FONT};white-space:pre}}
 .td{{fill:none;stroke:{SEAL};stroke-width:1.3;opacity:.8}}
 """
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
-            f'aria-label="Registro de contribuciones: {total} en el último año, racha más larga de {longest} días, racha actual de {current}.">'
+            f'aria-label="Contribution record: {total} in the last year, longest streak {longest} days, current streak {current} days.">'
             f'<defs><style>{css}</style></defs><rect width="{W}" height="{H}" fill="{BG}"/>'
             f'{stat_svg}{rows}{"".join(cells)}{"".join(months)}'
             f'<circle class="td" cx="{tx:.1f}" cy="{ty:.1f}" r="8"/></svg>')

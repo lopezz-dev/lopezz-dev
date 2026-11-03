@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" alt="Arte ASCII: una katana en horizontal, apoyada en su soporte de madera" width="100%" />
+<img src="./assets/hero.svg" alt="ASCII art: a katana resting horizontally on its wooden stand" width="100%" />
 
 <br>
 
@@ -12,18 +12,12 @@
 
 <img src="./assets/h-arsenal.svg" alt="刀掛 · Arsenal" width="100%" />
 
-<img src="./assets/arsenal.svg" alt="Arsenal: Rust, TypeScript, React, Tauri y Spring, grabados en hojas de katana" width="100%" />
+<img src="./assets/arsenal.svg" alt="Arsenal: Rust, TypeScript, React, Tauri and Spring, engraved on katana blades" width="100%" />
 
 <br><br>
 
-<img src="./assets/h-codigo.svg" alt="武士道 · Código" width="100%" />
+<img src="./assets/h-batallas.svg" alt="戦歴 · Battles" width="100%" />
 
-<img src="./assets/codigo.svg" alt="bushido.rs: el código del oficio escrito en Rust" width="100%" />
-
-<br><br>
-
-<img src="./assets/h-batallas.svg" alt="戦歴 · Batallas" width="100%" />
-
-<img src="https://raw.githubusercontent.com/lopezz-dev/lopezz-dev/batallas/batallas.svg" alt="Registro de contribuciones del último año" width="100%" />
+<img src="https://raw.githubusercontent.com/lopezz-dev/lopezz-dev/batallas/batallas.svg" alt="Contribution record for the last year" width="100%" />
 
 </div>

@@ -225,9 +225,9 @@ def build() -> str:
     blen = math.hypot(b[0] - a[0], b[1] - a[1])
 
     poem = [
-        "Forjada en el fuego, plegada mil veces.",
-        "Silenciosa en su vaina, espera.",
-        "Solo el maestro la oye respirar.",
+        "Forged in fire, folded a thousand times.",
+        "Silent in its sheath, it waits.",
+        "Only the master hears it breathe.",
     ]
     poem_svg = "".join(f'<text class="poem" x="48" y="{H - 52 + i * 17}">{html.escape(t)}</text>'
                        for i, t in enumerate(poem))
@@ -244,7 +244,7 @@ text{{font-family:{FONT};font-size:{FS}px;fill:{TONES[0]};white-space:pre}}
 .g1{{fill:#fff;opacity:.5;filter:url(#soft)}}.g2{{fill:#fff}}
 @media (prefers-reduced-motion:reduce){{.shine{{animation:none}}}}
 """
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Arte ASCII: una katana en horizontal, apoyada en su soporte de madera.">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="ASCII art: a katana resting horizontally on its wooden stand.">
 <defs><style>{css}</style>
 <filter id="soft" x="-50%" y="-300%" width="200%" height="700%"><feGaussianBlur stdDeviation="2"/></filter></defs>
 <rect width="{W}" height="{H}" fill="{BG}"/>

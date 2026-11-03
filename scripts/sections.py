@@ -3,9 +3,8 @@
     python3 scripts/sections.py
 
 Escribe en assets/:
-  h-arsenal.svg, h-codigo.svg, h-batallas.svg   cabeceras
-  arsenal.svg                                   las tecnologias, grabadas en hojas
-  codigo.svg                                    el codigo del oficio, en Rust
+  h-arsenal.svg, h-batallas.svg   cabeceras
+  arsenal.svg                     las tecnologias, grabadas en hojas
 """
 from __future__ import annotations
 
@@ -131,60 +130,11 @@ def arsenal() -> str:
     return svg(W, H, label, css, "".join(rack) + "".join(lines))
 
 
-# ---- codigo: el bushido escrito en Rust ------------------------------------
-# (texto, clase) por tramo; cada linea es una lista de tramos
-K, F, I, S, C, P, J = "kw", "fn", "id", "st", "cm", "pu", "kj"
-CODE = [
-    [("// 武士道 · el código del oficio", C)],
-    [],
-    [("fn ", K), ("main", F), ("() {", P)],
-    [("    let ", K), ("hoja", I), (" = ", P), ("Hoja", F), ("::", P), ("forjar", F), ("()", P)],
-    [("        .", P), ("sin_atajos", F), ("()", P), ("                ", P), ("// ", C), ("義", J), (" rectitud", C)],
-    [("        .", P), ("romper_para_aprender", F), ("()", P), ("      ", P), ("// ", C), ("勇", J), (" coraje", C)],
-    [("        .", P), ("que_otro_pueda_leerlo", F), ("()", P), ("     ", P), ("// ", C), ("仁", J), (" compasión", C)],
-    [("        .", P), ("si_falla_se_dice", F), ("()", P), ("          ", P), ("// ", C), ("誠", J), (" sinceridad", C)],
-    [("        .", P), ("firmada", F), ("(", P), ('"lopezz-dev"', S), (");", P), ("      ", P), ("// ", C), ("名誉", J), (" honor", C)],
-    [],
-    [("    hoja", I), (".", P), ("envainar", F), ("(); ", P), ("// silenciosa, espera", C)],
-    [("}", P)],
-]
-
-
-def codigo() -> str:
-    W = 1200
-    fs = 16
-    lh = 26
-    top = 56
-    H = top + lh * len(CODE) + 34
-    x0 = 120
-    lines = []
-    for n, spans in enumerate(CODE, start=1):
-        y = top + (n - 1) * lh
-        lines.append(f'<text class="ln" x="{x0 - 26}" y="{y}" text-anchor="end">{n:>2}</text>')
-        if spans:
-            body = "".join(f'<tspan class="{cls}">{html.escape(t)}</tspan>' for t, cls in spans)
-            lines.append(f'<text class="cd" x="{x0}" y="{y}" xml:space="preserve">{body}</text>')
-    frame = (f'<line x1="{x0 - 14}" y1="{top - 22}" x2="{x0 - 14}" y2="{H - 24}" stroke="{DIM}" stroke-width="1"/>'
-             f'<text class="tab" x="40" y="24">bushido.rs</text>'
-             f'<line x1="40" y1="34" x2="{W - 40}" y2="34" stroke="#1e1c1a"/>')
-    css = f"""
-.cd{{font-size:{fs}px}}
-.ln{{font-size:13px;fill:#3a3835}}
-.tab{{font-size:12px;fill:{DIM};letter-spacing:2px}}
-.kw{{fill:{SEAL}}}.fn{{fill:{BONE}}}.id{{fill:{LIGHT}}}.st{{fill:{MID};font-style:italic}}
-.cm{{fill:{DIM}}}.pu{{fill:{MID}}}.kj{{fill:{SEAL};font-family:{KANJI}}}
-"""
-    plain = "\n".join("".join(t for t, _ in spans) for spans in CODE)
-    return svg(W, H, "bushido.rs: " + plain, css, frame + "".join(lines))
-
-
 def main() -> None:
     out = {
         "h-arsenal.svg": header("刀掛", "ARSENAL", "一", 5),
-        "h-codigo.svg": header("武士道", "CÓDIGO", "二", 7),
-        "h-batallas.svg": header("戦歴", "BATALLAS", "三", 11),
+        "h-batallas.svg": header("戦歴", "BATTLES", "二", 11),
         "arsenal.svg": arsenal(),
-        "codigo.svg": codigo(),
     }
     for name, content in out.items():
         (ASSETS / name).write_text(content, encoding="utf-8")
