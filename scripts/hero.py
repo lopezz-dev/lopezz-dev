@@ -242,12 +242,18 @@ text{{font-family:{FONT};font-size:{FS}px;fill:{TONES[0]};white-space:pre}}
 @keyframes shine{{0%,70%{{transform:translateX(0);opacity:0}}72%{{opacity:1}}86%{{transform:translateX({blen:.0f}px);opacity:1}}88%,100%{{transform:translateX({blen:.0f}px);opacity:0}}}}
 .shine{{opacity:0;animation:shine 10s cubic-bezier(.5,0,.3,1) infinite}}
 .g1{{fill:#fff;opacity:.5;filter:url(#soft)}}.g2{{fill:#fff}}
-@media (prefers-reduced-motion:reduce){{.shine{{animation:none}}}}
+/* al cargar, la tinta entra de izquierda a derecha */
+@keyframes wash{{0%{{transform:translateX(-{W * 1.3:.0f}px)}}100%{{transform:translateX(0)}}}}
+.wash{{animation:wash 2.6s cubic-bezier(.6,0,.2,1) .2s both}}
+@media (prefers-reduced-motion:reduce){{.shine,.wash{{animation:none}}}}
 """
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="ASCII art: a katana resting horizontally on its wooden stand.">
 <defs><style>{css}</style>
-<filter id="soft" x="-50%" y="-300%" width="200%" height="700%"><feGaussianBlur stdDeviation="2"/></filter></defs>
+<filter id="soft" x="-50%" y="-300%" width="200%" height="700%"><feGaussianBlur stdDeviation="2"/></filter>
+<linearGradient id="wg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff"/><stop offset=".8" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+<mask id="reveal" maskUnits="userSpaceOnUse" x="0" y="0" width="{W}" height="{H}"><rect class="wash" x="0" y="0" width="{W * 1.3:.0f}" height="{H}" fill="url(#wg)"/></mask></defs>
 <rect width="{W}" height="{H}" fill="{BG}"/>
+<g mask="url(#reveal)">
 {art}
 <g transform="translate({a[0]:.1f},{a[1]:.1f}) rotate({ang:.2f})"><g class="shine">
 <ellipse class="g1" rx="60" ry="3"/><ellipse class="g2" rx="22" ry="1"/></g></g>
@@ -256,6 +262,7 @@ text{{font-family:{FONT};font-size:{FS}px;fill:{TONES[0]};white-space:pre}}
 {poem_svg}
 <rect x="{W - 82}" y="{H - 82}" width="34" height="34" rx="3" fill="{SEAL}"/>
 <text class="seal" x="{W - 65}" y="{H - 57}" text-anchor="middle">刀</text>
+</g>
 </svg>
 """
 
